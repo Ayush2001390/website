@@ -1,0 +1,46 @@
+div {
+    font-weight: bold;
+    font-style: sans-serif;
+  }
+  
+  div ol {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+  }
+  
+  div ol li {
+    display: inline-block;
+  }
+  
+  div ol li a {
+    text-decoration: none;
+    color: red;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+    font-weight: bold;
+  }
+  
+  ol li a:hover {
+    background-color: #ffa500;
+    color: #000000;
+  }
+  
+  .main {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  header {
+    height: 10vh;
+    background-size: cover;
+    background-position:center;
+  }
+  
+  @media print {
+    .main {
+      display: none;
+    }
+  }
